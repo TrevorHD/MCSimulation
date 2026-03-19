@@ -172,7 +172,7 @@ ggplot() + aes(x = val.x, y = val.y) +
 ##### Plot all graphs in one visualisation ----------------------------------------------------------------
 
 # Prepare graphics device
-jpeg(filename = "CoinFlip.jpeg", width = 1500, height = 1500, units = "px")
+jpeg(filename = "Data/MCPlots2.jpeg", width = 1500, height = 1500, units = "px")
 
 # Create blank page
 grid.newpage()

@@ -89,7 +89,7 @@ ggplot() + aes(x = val.x, y = val.y) +
 ##### Plot all graphs in one visualisation ----------------------------------------------------------------
 
 # Prepare graphics device
-jpeg(filename = "MCPiPlots.jpeg", width = 2200, height = 1500, units = "px")
+jpeg(filename = "Data/MCPlots1.jpeg", width = 2200, height = 1500, units = "px")
 
 # Create blank page
 grid.newpage()
