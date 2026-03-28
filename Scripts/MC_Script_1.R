@@ -1,9 +1,12 @@
-##### Load necessary libraries ----------------------------------------------------------------------------
+##### Prepare workspace -----------------------------------------------------------------------------------
 
-# Packages for plotting and graphics
+# Load libraries
 library(tidyverse)
 library(grid)
 library(gridBase)
+
+# Set working directory
+setwd("~/GitHub/MCSimulation")
 
 
 
@@ -89,7 +92,7 @@ ggplot() + aes(x = val.x, y = val.y) +
 ##### Plot all graphs in one visualisation ----------------------------------------------------------------
 
 # Prepare graphics device
-jpeg(filename = "Data/MCPlots1.jpeg", width = 2200, height = 1500, units = "px")
+jpeg(filename = "Figures/MC_Plots_1.jpeg", width = 2200, height = 1500, units = "px")
 
 # Create blank page
 grid.newpage()
@@ -144,9 +147,6 @@ for(i in 1:4){
 # Deactivate grid layout; finalise graphics save
 popViewport()
 dev.off()
-
-# Note that graphics device may vary between computers
-# Thus, adjustments may need to be made to this code section
 
 # Clean up variables from global environment
 remove(i, val.x, val.y, vals)
