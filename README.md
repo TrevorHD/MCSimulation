@@ -22,6 +22,7 @@ By simulating a large number of events and leveraging convergence toward a parti
 **MC_Script_1** *(.R)* - Script for running simulations and generating figures for the pi estimation problem.
 
 **MC_Script_2** *(.R)* - Script for running simulations and generating figures for the coin flip problem.
+
 <br/>
 
 # Featured Images
