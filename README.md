@@ -13,24 +13,23 @@ By simulating a large number of events and leveraging convergence toward a parti
 
 ## Figures
 
-**MCPlots1** *(.jpeg)* - Plots showing how Monte Carlo simulation can be used to estimate pi.
+**MC_Plots_1** *(.jpeg)* - Plots of Monte Carlo simulations being used to estimate pi.
 
-**MCPlots2** *(.jpeg)* - Plots showing how Monte Carlo simulation can be used to estimate the mean number of flips necessary to achieve a given number of consecutive heads or tails.
+**MC_Plots_2** *(.jpeg)* - Plots of Monte Carlo simulations being used to estimate the mean number of coin flips necessary to achieve a given number of consecutive heads or tails.
 
 ## Scripts
 
-**MC_CF** *(.R)* - Script used to simulate coin flips and estimate the mean number of flips necessary to achieve a given number of consecutive heads or tails.
+**MC_Script_1** *(.R)* - Script for running simulations and generating figures for the pi estimation problem.
 
-**MC_PI** *(.R)* - Script used to simulate point generation in a unit square and estimate pi.
-
+**MC_Script_2** *(.R)* - Script for running simulations and generating figures for the coin flip problem.
 <br/>
 
 # Featured Images
 
-Plots showing how Monte Carlo simulation can be used to estimate pi. As the number of simulation replicates increases, the estimated value of pi converges on the true value of approximately 3.14.
+Demonstration on how Monte Carlo simulation can be used to estimate pi. As the number of simulation replicates increases, the estimated value of pi converges on the true value of approximately 3.14.
 
-<kbd>![](https://github.com/TrevorHD/MCMethods/blob/master/Figures/MCPlots1.jpeg)</kbd>
+<kbd>![](https://github.com/TrevorHD/MCMethods/blob/master/Figures/MC_Plots_1.jpeg)</kbd>
 
-Plots showing how Monte Carlo simulation can be used to estimate the mean number of flips necessary to achieve a given number of consecutive heads or tails. For a given number, estimated results converge on their true values as the number of replications is increased.
+Demonstration on how Monte Carlo simulation can be used to estimate the mean number of coin flips necessary to achieve a given number of consecutive heads or tails. For any given number of consecutive heads or tails, estimated results converge on their true values as the number of replications is increased.
 
-<kbd>![](https://github.com/TrevorHD/MCMethods/blob/master/Figures/MCPlots2.jpeg)</kbd>
+<kbd>![](https://github.com/TrevorHD/MCMethods/blob/master/Figures/MC_Plots_2.jpeg)</kbd>
